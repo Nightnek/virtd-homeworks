@@ -20,13 +20,19 @@
 Создайте ваш первый Docker Swarm-кластер в Яндекс Облаке.
 Документация swarm: https://docs.docker.com/engine/reference/commandline/swarm_init/
 1. Создайте 3 облачные виртуальные машины в одной сети.
+![image](https://github.com/user-attachments/assets/186db482-ffa0-417d-85f8-5a8898ba5371)
+
 2. Установите docker на каждую ВМ.
+![image](https://github.com/user-attachments/assets/95de602e-a53e-42ee-ad6b-f569cadb85dd)
+
 3. Создайте swarm-кластер из 1 мастера и 2-х рабочих нод.
 
 4. Проверьте список нод командой:
 ```
 docker node ls
 ```
+![image](https://github.com/user-attachments/assets/dc697f4c-d052-4d9b-97e2-117e3d205ea9)
+
 ## Задача 2 (*) (необязательное задание *).
 1.  Задеплойте ваш python-fork из предыдущего ДЗ(05-virt-04-docker-in-practice) в получившийся кластер.
 2. Удалите стенд.
